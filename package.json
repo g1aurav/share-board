@@ -1,9 +1,11 @@
 {
-   "name": "ShareBoard",
-      "description": "Collaborative drawing canvas",
-         "author": "Code-and.Coffee",
-	    "dependencies" : {
-	          "express": "4.x",
-		        "socket.io": "*"
-			   }
+  "name": "ShareBoard",
+  "description": "Collaborative drawing canvas",
+  "author": "Code-and.Coffee",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "4.x",
+    "path": "^0.12.7",
+    "socket.io": "*"
+  }
 }
