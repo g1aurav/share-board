@@ -1,11 +1,16 @@
 {
   "name": "ShareBoard",
   "description": "Collaborative drawing canvas",
-  "author": "Code-and.Coffee",
+  "author": "https://github.com/g1aurav https://github.com/rajaishwary",
+  "script": {
+  	"start": "nodemon --watch public server.js"
+  },
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "4.x",
+    "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "socket.io": "*"
   }
 }
+

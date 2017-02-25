@@ -34,3 +34,4 @@ line_history.push(data.line);
 io.emit('draw_line', { line: data.line });
 });
 });
+
