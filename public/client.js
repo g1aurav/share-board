@@ -1,4 +1,4 @@
- 
+
  document.addEventListener("DOMContentLoaded", function() {
 	var mouse = { 
 	click: false,
@@ -36,7 +36,6 @@ context.moveTo(line[0].x * width, line[0].y * height);
 context.lineTo(line[1].x * width, line[1].y * height);
 context.stroke();
 });
-
 // main loop, running every 25ms
 function mainLoop() {
 // check if the user is drawing

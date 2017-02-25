@@ -6,8 +6,16 @@
 			<link rel="stylesheet" href="style.css" />
 			<script src="socket.io/socket.io.js"></script>
 			<script src="client.js"></script>
+			<script type="text/javascript">
+				function clearCanvas() {
+					var c=document.getElementById("drawing");
+					var ctx=c.getContext("2d");
+					ctx.clearRect(0, 0, c.width, c.height);
+				}
+			</script>
 		</head>
 		<body>
+			<button onClick="clearCanvas()">clear</button>
 			<canvas id="drawing"></canvas>
 		</body>
 	</html>
