@@ -2,8 +2,8 @@
   "name": "ShareBoard",
   "description": "Collaborative drawing canvas",
   "author": "https://github.com/g1aurav https://github.com/rajaishwary",
-  "script": {
-  	"start": "nodemon --watch public server.js"
+  "scripts": {
+  	"start": "nodemon server.js"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
@@ -13,4 +13,5 @@
     "socket.io": "*"
   }
 }
+
 
